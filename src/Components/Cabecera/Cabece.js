@@ -6,19 +6,6 @@ const Cabece = () => {
   return (
 
     <div class="cabecera">
-
-            <div class="wrap">
-
-                <div class="descuento">
-
-                    <p> Obten un cupon de descuento solo por hoy!</p>
-
-                </div>
-
-            </div>
-
-
-
             <div class="caja-logo">
 
                 <div class="logo">

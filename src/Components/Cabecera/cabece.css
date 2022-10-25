@@ -25,9 +25,9 @@
   
 .cabecera{
       
-  margin-bottom: auto;
-   background-color: whitesmoke;
-    height: auto;
+  margin-top: auto;
+  background-color: whitesmoke;
+  height: 20vw;
   
   
 }
@@ -35,9 +35,11 @@
   
   
 .caja-logo{
-     background-color: whitesmoke;
-     height: 5vw;
-     margin-top: 1vw;
+    
+    background-color: whitesmoke;
+    height: 20vw;
+
+    margin-top: 1vw;
   
       
       

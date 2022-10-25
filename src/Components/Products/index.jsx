@@ -16,42 +16,44 @@ const Products = () => {
 
 
   return (
-    <div className={styles.productos_contenedor}>
+    <div>
+      <div className={styles.productos_contenedor}>
 
 
-      {ProductsData.map((product,i)=> (
+        {ProductsData.map((product,i)=> (
 
 
-        <div key={i} className={styles.product}>
+          <div key={i} className={styles.product}>
 
-          <img src= {product.img} alt={product.name}/>
-
-          <div>
-            <p>
-            <center>{product.name}</center>
-              
-            </p>
+            <img src= {product.img} alt={product.name}/>
 
             <div>
               <p>
-                <center>Precio: ${product.price}</center>
+              <center>{product.name}</center>
+                
               </p>
-            
+
+              <div>
+                <p>
+                  <center>Precio: ${product.price}</center>
+                </p>
+              
+              </div>
             </div>
+
+
+
+
+
+            <button type="button" class="btn bd-primary"  onClick={()=>addItemToCart(product)}>Agregar al Carrito</button>
+
+
           </div>
-
-
-
-
-
-          <button type="button" class="btn bd-primary"  onClick={()=>addItemToCart(product)}>Agregar al Carrito</button>
-
-
-        </div>
-      
-      
-      
-      ))}
+        
+        
+        
+        ))}
+      </div>
     </div>
   )
 }
