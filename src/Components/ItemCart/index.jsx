@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import { CartContext } from '../../Context/CartContext'
 import styles from "./styles.module.scss"
 
+
 const ItemCart = ({item}) => {
   const {deleteItemToCart, addItemToCart} = useContext(CartContext)
 
@@ -23,6 +24,8 @@ const ItemCart = ({item}) => {
       <div className={styles.right}>
         <div>{item.amount}</div>
         <p>Total: ${item.amount * item.price}</p>
+        
+        
         
       </div>
 

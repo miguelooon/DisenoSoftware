@@ -31,19 +31,7 @@ const Navbar = () => {
                         <Link className="nav-link" to='/catalogo'>Catalogo</Link>
                         </li>
 
-                        <li className="nav-item dropdown">
 
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                               Servicios
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li><Link to="/Catalogo" class="dropdown-item" href="#">Limpieza Facial</Link></li>
-                                <li><Link to="/Catalogo" class="dropdown-item" href="#">Perfilado Cejas</Link></li>
-                                <li><Link to="/Catalogo" class="dropdown-item" href="#">Lifting</Link></li>
-                            </ul>
-
-                        </li>
 
                         <li className="nav-item">
                         <Link className="nav-link" to='/contacto'>Contacto</Link>

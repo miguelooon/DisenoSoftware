@@ -6,29 +6,31 @@ import Navbar from './Components/navegacion/Navbar';
 import Inicio from './Components/pages/Inicio';
 import Catalogo from './Components/pages/Catalogo';
 import Footer from './Components/navegacion/Footer';
-import Cabece from './Components/Cabecera/Cabece';
 import { CartProvider } from './Context/CartContext';
 import Contacto from './Components/pages/Contacto';
-
 
 
 function App() {
   return (
     <div className='App'>
 
+      
+
+
+
       <CartProvider>
+      
       <Router>
+       <Navbar/>
+
 
        
 
         
         
-      <Navbar/>
+      
         
         <Routes>
-          
-          
-
           
           
           <Route path= '/' exact element= {<Inicio/>}/>
@@ -37,13 +39,16 @@ function App() {
 
           <Route path= '/contacto' element= {<Contacto/>}/>
 
+
         </Routes>
 
         <Footer /> 
 
         
       </Router>
+
       </CartProvider>
+      
 
       
     

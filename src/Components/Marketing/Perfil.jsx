@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Sli from '../Swipe/Sli'
 
 const Perfil = () => {
   return (
@@ -29,11 +30,17 @@ const Perfil = () => {
                     <p><Link to="/contacto" className="btn btn-secondary" >Conoceme mas &raquo;</Link></p>
                 </div>
 
-            </div>
-
-
-
+            
+            
+            <Sli/>
             <hr/>
+
+            </div>
+            
+
+
+
+            
 
                     <div className="row featurette">
                         <div className="col-md-7">
@@ -48,6 +55,7 @@ const Perfil = () => {
                     </div>
 
             <hr className="featurette-divider"/>
+
 
                     <div className="row featurette">
                         <div className="col-md-7 order-md-2">
@@ -66,8 +74,12 @@ const Perfil = () => {
 
             <hr className="featurette-divider"/>
 
+
         </div>
+        
     </div>
+    
+    
   )
 }
 

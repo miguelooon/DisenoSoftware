@@ -101,6 +101,11 @@ const Cart = () => {
 
 
           <h2 className={styles.total}>Total: ${total}</h2>
+      
+          
+          
+
+          
 
         </div>
 

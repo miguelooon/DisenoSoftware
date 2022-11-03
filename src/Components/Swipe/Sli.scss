@@ -1,0 +1,120 @@
+.swiper-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:  auto ; // here is the amount of slidesPerColumn you want
+    grid-auto-flow: column;
+
+    & > .swiper-slide {
+      height: fit-content;
+    }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.appcambio {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 40vh;
+  margin-bottom: 10vh;
+
+  h1 {
+    padding: 2rem;
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .container {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    .swiperContainer {
+      overflow-x: hidden;
+      padding: 0 2rem;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .swiper-pagination-bullet {
+    background-color: black;
+    height: 10px;
+    width: 10px;
+    margin-right: 6px;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: rgb(255, 162, 0);
+    opacity: 1;
+  }
+}
+
+
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  padding: 2rem 0;
+  border-radius: 8px;
+  min-width: 150px;
+  width: 60vw;
+  max-width: 275px;
+  height: 275px;
+
+  img {
+    width: 80%;
+    max-width: 250px;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    p {
+      font-weight: bold;
+      text-transform: capitalize;
+      text-align: center;
+    }
+
+    .types {
+      display: flex;
+      text-align: center;
+      gap: 25px;
+
+      span {
+        padding: 0.5rem;
+        background-color: white;
+        border-radius: 8px;
+        text-transform: capitalize;
+      }
+    }
+
+    @media (max-width:  350px) {
+      .types {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+}
+
+.card:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.1);
+}
