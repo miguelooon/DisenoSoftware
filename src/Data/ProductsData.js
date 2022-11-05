@@ -36,7 +36,7 @@ export const ProductsData = [
     },
     {
         id:6,
-        price:15000,
+        price:13000,
         amount: 0,
         name:"Diseño Avanzado",
         img: "../images/diseño.png" ,
@@ -50,17 +50,17 @@ export const ProductsData = [
     },
     {
         id:8,
-        price:0,
+        price:17000,
         amount: 0,
-        name: "Insertar",
-        img: "../images/diseño simple + 2 tonos.png",
+        name: "Francesa degrade diseño",
+        img: "../images/f1.jpeg",
     },
     {
         id:9,
-        price:0,
+        price:17000,
         amount: 0,
-        name: "Insertar",
-        img: "../images/diseño simple + 2 tonos.png",
+        name: "Diseño Completo",
+        img: "../images/f2.jpeg",
     },
 
 

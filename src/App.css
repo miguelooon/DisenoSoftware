@@ -65,12 +65,12 @@
 
 
 .slide {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 
 .slide img{
-    height:75vh;
+  height:75vh;
 }
 
 
@@ -85,10 +85,7 @@
   
   @media (min-width: 40em) {
 
-    .carousel-item{
 
-      height: auto;
-    }
 
   
     .featurette-heading {
@@ -120,3 +117,6 @@
     vertical-align: -.125em;
     fill: currentColor;
 }
+
+
+

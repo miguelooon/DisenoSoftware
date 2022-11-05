@@ -11,12 +11,13 @@ const Carousel = () => {
             
         </div>
         <div className="carousel-inner">
-            <div className="carousel-item active">
+            <div className="carousel-item carousel-image bg-img-1 active">
                 <img src="./images/6.png" className="d-block w-100" alt="..."/>
             </div>
-            <div className="carousel-item">
+            <div className="carousel-item carousel-image bg-img-2">
                 <img src="./images/nails.png" className="d-block w-100" alt="..."/>
             </div>
+
 
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

@@ -24,17 +24,17 @@ const Navbar = () => {
                     <ul className="navbar-nav col" >
 
                         <li className="nav-item ">
-                        <Link className="nav-link" to ='/'>Inicio</Link>
+                        <a className="nav-link" href ='/'>Inicio</a>
                         </li>
 
                         <li className="nav-item">
-                        <Link className="nav-link" to='/catalogo'>Catalogo</Link>
+                        <a className="nav-link" href='/catalogo'>Catalogo</a>
                         </li>
 
 
 
                         <li className="nav-item">
-                        <Link className="nav-link" to='/contacto'>Contacto</Link>
+                        <a className="nav-link" href='/contacto'>Contacto</a>
                         </li>
 
                         
