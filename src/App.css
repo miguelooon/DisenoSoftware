@@ -85,6 +85,11 @@
   
   @media (min-width: 40em) {
 
+    .carousel-item{
+
+      height: auto;
+    }
+
   
     .featurette-heading {
       font-size: 50px;

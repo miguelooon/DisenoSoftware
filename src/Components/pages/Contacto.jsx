@@ -1,9 +1,16 @@
 import React from 'react'
+import Formulario from '../Formulario'
+
 
 const Contacto = () => {
   return (
-    <h1></h1>
-    
+    <div>
+        <hr />
+        <hr />
+        <hr />
+        <hr />
+        <Formulario />
+    </div>
   )
 }
 

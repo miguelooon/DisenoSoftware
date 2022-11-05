@@ -27,7 +27,7 @@ const Perfil = () => {
                     Barbara Vergara Arce</h4>
                     <p> Pongo toda mi dedicacion en lo que hago,<br></br> Espero que te guste! </p>
 
-                    <p><Link to="/contacto" className="btn btn-secondary" >Conoceme mas &raquo;</Link></p>
+                    <p><Link to="/contacto" className="btn btn-secondary" >Reserva tu hora &raquo;</Link></p>
                 </div>
 
             
