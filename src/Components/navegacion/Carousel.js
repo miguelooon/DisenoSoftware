@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 const Carousel = () => {
   return (
@@ -13,6 +12,10 @@ const Carousel = () => {
         <div className="carousel-inner">
             <div className="carousel-item carousel-image bg-img-1 active">
                 <img src="./images/6.png" className="d-block w-100" alt="..."/>
+                
+                
+                
+
             </div>
             <div className="carousel-item carousel-image bg-img-2">
                 <img src="./images/nails.png" className="d-block w-100" alt="..."/>

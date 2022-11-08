@@ -59,12 +59,12 @@ const Perfil = () => {
 
                     <div className="row featurette">
                         <div className="col-md-7 order-md-2">
-                            <h2 className="featurette-heading fw-normal lh-1">Llevo 7 años dedicandome a las uñas, <span className="text-muted">ven a ver mi trabajo</span></h2>
-                            <p className="lead">He tomado distintos cursos para poder mejorar en lo que hago, y la practica  </p>
+                            <h2 className="featurette-heading fw-normal lh-1">Revisa Mi Catalogo <span className="text-muted">tenemos el diseño indicado para ti</span></h2>
+                            <p className="lead">Todos los productos que ofrezco vienen con garanatia !</p>
                         </div>
                         <div className="col-md-5 order-md-1">
                             <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
-                             <image href= "./images/portada2.png" height="100%"/>
+                             <image href= "./images/REEmplazo1.jpeg" height="100%"/>
                             </svg>
 
                         </div>

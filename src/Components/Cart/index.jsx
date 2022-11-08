@@ -1,8 +1,10 @@
 import React, {useContext, useState} from 'react'
+import "./styles.css"
 import styles from "./styles.module.scss"
 import { CartContext } from '../../Context/CartContext'
 import { useEffect } from 'react'
 import ItemCart from '../ItemCart'
+import Paypalcl from '../Pagos/Paypalcl'
 
 const Cart = () => {
 
@@ -26,6 +28,8 @@ const Cart = () => {
     (previous,current) => previous + current.amount * current.price,
     0
   );
+
+  const [checkout,setCheckOut] = useState(false);
   
 
 
@@ -88,7 +92,7 @@ const Cart = () => {
 
       {cartItems && cartOpen && (
 
-        <div className={styles.cart} >
+        <div className={styles.cart}>
           <h2>Tu carrito</h2>
 
           {cartItems.length === 0 ?(
@@ -101,6 +105,42 @@ const Cart = () => {
 
 
           <h2 className={styles.total}>Total: ${total}</h2>
+
+
+          <div className={styles.total}>
+
+            {checkout ? (
+              
+              <Paypalcl variable={total}/>
+
+
+
+
+            ):(
+              
+
+              <button type="button" class="btn btn-dark"  onClick={()=>{
+                setCheckOut(true);
+
+
+
+              }}>
+                PAGAR
+
+              </button>
+              
+
+
+
+
+
+
+              
+            
+            
+            )}
+          </div>
+
       
           
           

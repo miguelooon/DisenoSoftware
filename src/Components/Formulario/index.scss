@@ -10,22 +10,22 @@
 }
 
 
-@media(min-width: 500px) and (max-width: 900px){
+@media(min-width: 200px) and (max-width: 1300px){
 
     .formio-component{
-        margin-left: 0px;
-        margin-right: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 
 
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1300px) {
 
     .formio-component{
-        margin-left: 300px;
-        margin-right: 300px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
 
 

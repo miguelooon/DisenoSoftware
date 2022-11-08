@@ -11,7 +11,7 @@ export const ProductsData = [
         price:10000,
         amount: 0,
         name: "Esmalte Permanente 2 Tono",
-        img: "../images/2tonos.png",
+        img: "../images/2tonosof.jpeg",
     },
     {
         id:3,
@@ -60,7 +60,7 @@ export const ProductsData = [
         price:17000,
         amount: 0,
         name: "Diseño Completo",
-        img: "../images/f2.jpeg",
+        img: "../images/REEmplazo1.jpeg",
     },
 
 
