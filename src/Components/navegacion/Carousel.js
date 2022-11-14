@@ -17,9 +17,6 @@ const Carousel = () => {
                 
 
             </div>
-            <div className="carousel-item carousel-image bg-img-2">
-                <img src="./images/nails.png" className="d-block w-100" alt="..."/>
-            </div>
 
 
         </div>
