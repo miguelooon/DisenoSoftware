@@ -1,20 +1,27 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-import Cart from '../Cart'
+import Cart from "../Cart"
 
 
 const Navbar = () => {
   return (
 
     
+
+    
         
     <div className='probando'>
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top ">
+        
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
          
-
             
+          
+
+          
             <div class="container-fluid">
-            <Cart/>
+             
+             
+            
                 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -47,6 +54,7 @@ const Navbar = () => {
                 </div>
                 
             </div>
+            <Cart/>
         </nav>
     </div>
 

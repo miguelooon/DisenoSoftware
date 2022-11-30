@@ -47,14 +47,14 @@
 }
 
 .nav-scroller .nav {
-    display: flex;
-    flex-wrap: nowrap;
-    padding-bottom: 1rem;
-    margin-top: -1px;
-    overflow-x: auto;
-    text-align: center;
-    white-space: nowrap;
-    -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  webkit-overflow-scrolling: touch;
     
 }
 
@@ -82,6 +82,8 @@
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
+
+
   
   @media (min-width: 40em) {
 
@@ -118,5 +120,28 @@
     fill: currentColor;
 }
 
+
+
+
+
+@media screen and (max-width:43rem){
+
+  .container-fluid{
+    text-align: left!important;
+    position:relative;
+    margin-right: 57vw!important;
+    
+    justify-content:left!important;
+    justify-items: left!important;
+    width: 30vw!important;
+    
+
+  }
+
+
+  
+  
+    
+}
 
 

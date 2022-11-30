@@ -1,6 +1,6 @@
 .bd-primary{
   --bs-btn-bg: var(--bd-violet);
-  background-color: rgb(255, 169, 255);
+  background-color: rgb(255, 197, 255);
   color: rgb(153, 18, 194);
 
   --bs-btn-border-radius: .5rem;
@@ -11,4 +11,6 @@
   --bs-btn-active-color: var(--bs-btn-hover-color);
   --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
   --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)};
+
+  
 }

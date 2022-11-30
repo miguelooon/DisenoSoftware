@@ -8,7 +8,7 @@ import Catalogo from './Components/pages/Catalogo';
 import Footer from './Components/navegacion/Footer';
 import { CartProvider } from './Context/CartContext';
 import Contacto from './Components/pages/Contacto';
-
+import Cart from './Components/Cart';
 
 function App() {
   return (
@@ -21,7 +21,13 @@ function App() {
       <CartProvider>
       
       <Router>
+
        <Navbar/>
+
+       
+        
+       
+        
 
 
        

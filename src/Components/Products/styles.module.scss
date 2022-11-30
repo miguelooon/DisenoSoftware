@@ -20,7 +20,7 @@
         
     }
     @media screen and (min-width:60rem){
-        grid-template-columns: repeat(3,300px);
+        grid-template-columns: repeat(3,0fr);
         
     }
 
@@ -53,11 +53,56 @@
         align-items: center;
         justify-content: center;
         gap: 10px;
-    
+        background-color: rgb(255, 179, 230)!important;
+        border-radius: 5px!important;
+        
+
+
+
+   
+
+
+        @media screen and (min-width:90rem){
+            width: 400px!important;
+            
+        }
+
+        @media screen and (min-width:140rem){
+            width: 700px!important;
+            
+        }
+
+
         img{
+            margin-top: 15px;
             height: 18vw;
+            width: 18vw;
+            border-radius: 5px;
+
+            @media screen and (max-width:30rem){
+
+               
+                width: 60vw!important;
+                height: 60vw!important;
+                
+            }
+
+            
+            @media screen and (max-width:60rem){
+
+               
+                width: 25vw;
+                height: 25vw;
+                
+            }
+                
+
+
+
+             
     
         }
+
 
         
 
